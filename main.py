@@ -4,16 +4,16 @@
 # find_anagrams("racecar") --> True
 
 
-def find_anagrams(word1, word2):
+def find_anagrams(word, anagram):
     # [assignment] Add your code here
-    if len(word1) != len(word2):
+    if len(word) != len(anagram):
         return False
  
-    word1 = sorted(word1)
-    word2 = sorted(word2)
+    word = sorted(word)
+    anagram = sorted(anagram)
  
-    return word1 == word2
+    return word == anagram
 
-word1 = "hello"
-word2 = "racecar"
-print(find_anagrams(word1, word2))
+word = "hello"
+anagram = "racecar"
+print(find_anagrams(word, anagram))
