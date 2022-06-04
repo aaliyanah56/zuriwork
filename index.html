@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="import" href="login.html">
+	<link href="registration.html" rel="import" />
+	<link href="contact.html" rel="import" />
+	<link href="index.html" rel="import" />
+
+
+    <title>Ruweidha Noor</title>
+    <style>
+		* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-image: url(background.jpg);
+	background-position: center;
+}
+header {
+	height: 15%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+.myPic {
+	border-radius: 90px;
+
+}
+
+.navbar {
+	text-align: center;
+	flex: 1;
+}
+.navbar a{
+	padding: 6px 20px;
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn {
+	cursor: pointer;
+	color: #cc0052;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 10px 30px;
+	background: transparent;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.btn:hover{
+	color: #000;
+	background-color: #fff;
+}
+.btn a:visited {
+	background-color: #fff;
+	color: #cc0052
+}
+.btn a:hover{
+	color: #000;
+}
+.btn a:link {
+	text-decoration: none;
+}
+
+main {
+	text-align: center;
+
+}
+main h1 {
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+main h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+main .hobbies {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 40px;
+}
+.description {
+	font-size:20px;
+	font-family: fantasy;
+	font-weight: 800;
+	color: #000;
+}
+.contactPage {
+	background-color:blueviolet;
+	font-family: 'Courier New', Courier, monospace;
+	padding:5px;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+	color: bisque;
+	text-decoration: none;
+}
+.contactPage:hover{
+	color: blueviolet;
+	background-color: bisque;
+	cursor: pointer;
+}
+	</style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="image.jpeg" alt="My pic" class="myPic" width="80" />
+        <div class="navbar">
+          <a class="aboutMe" href="index.html">About Me</a>
+          <a class="contactMe" href="contact.html">Contact Me</a>
+          <a class="register" href="registration.html">Register</a>
+        </div>
+        <button><a class="btn" href="login.html">Login</a></button>
+      </header>
+      <main class="main">
+        <h1>Ruweidha Noor</h1>
+        <h3 class="aboutMe">About Me</h3>
+        <div class="description">
+          I am a software engineer. I specialize in building and maintaining
+          large-scale systems that make our products better for our customers. I
+          work in a team with other engineers, designers, and product managers
+          to build the software that makes our company better. I have worked on
+          multiple products, and I am excited to be working on the newest and
+          most exciting product we have ever launched.
+        </div>
+        <h4 class="hobbies">Hobbies</h4>
+        <p class="description">
+          I like to go camping, hiking, and exploring new places. I also like to
+          play soccer, basketball, and football. I like to read and write. I
+          also like to watch Netflix when I have time.
+        </p>
+      </main>
+	  <footer>
+		  <button class="contactPage">
+			  <a class="contactPage" href="contact.html">Contact Me</a>
+		  </button>
+	  </footer>
+    </div>
+  </body>
+</html>
