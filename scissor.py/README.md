@@ -1,4 +1,5 @@
-MY PROJECT
+            MY PROJECT
+
 . it contains different kind og game played by user and computer
 
 . it include:
